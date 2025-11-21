@@ -1,0 +1,73 @@
+
+body {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: hsl(0,0%,95%);
+    overflow: hidden;
+}
+
+/* Reduced from 500px to 360px */
+#calculator {
+    font-family: Arial, sans-serif;
+    background-color: hsl(0,0%,15%);
+    border-radius: 15px;
+    max-width: 360px;
+    overflow: hidden;
+    color: white;
+}
+
+/* Reduced padding + font size */
+#display {
+    width: 100%;
+    padding: 15px;
+    font-size: 3rem;   /* was 5rem */
+    text-align: left;
+    border: none;
+    background-color: hsl(0,0%,20%);
+    color: white;
+}
+
+/* Reduced padding + gap */
+#keys {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 8px;           /* was 10px */
+    padding: 20px;      /* was 25px */
+}
+
+/* Button size reduced from 100→75 */
+button {
+    width: 75px;
+    height: 75px;
+    border-radius: 50px;
+    border: none;
+    background-color: hsl(0,0%,30%);
+    color: white;
+    font-size: 2.2rem;   /* was 3rem */
+    font-weight: bold;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: hsl(0,0%,40%);
+}
+
+button:active {
+    background-color: hsl(0,0%,50%);
+}
+
+/* Operator colors kept same */
+.operator-btn {
+    background-color: hsl(35,100%,55%);
+}
+
+.operator-btn:hover {
+    background-color: hsl(35,100%,65%);
+}
+
+.operator-btn:active {
+    background-color: hsl(35,100%,75%);
+}
