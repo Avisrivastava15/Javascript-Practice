@@ -1,5 +1,5 @@
-# Web-Development-Practice
-Welcome to my Web Development Practice Repository — a collection of mini projects and experiments built while learning and strengthening the core web technologies: HTML, CSS, and JavaScript.
+# Javascript-Practice
+Welcome to my Javascript Practice Repository — a collection of mini projects and experiments built while learning and strengthening the core web technologies: HTML, CSS, and JavaScript.
 
 This repository represents my hands-on journey toward mastering front-end development through consistent practice, creativity, and exploration.
 
@@ -10,15 +10,13 @@ Each project focuses on improving one or more areas of web development, includin
 
 **🎨 CSS & UI Design**
 
-Glassmorphism Card
-
-Responsive Landing Page
-
-Button Hover Effects
-
-Animated Loader
-
 Light/Dark Mode Toggle
+
+Fetching data from APIs
+
+DOM Manipulation
+
+Local Storage
 
 
 …and many more to come as I continue experimenting with front-end concepts and styling techniques!
